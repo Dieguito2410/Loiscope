@@ -1,0 +1,72 @@
+{
+  "champion": "Samira",
+  "role": "ADC",
+
+  "identity": {
+    "difficulty": 4,
+    "style": "ADC de entrada agresiva, combos rápidos y ejecución en peleas grupales.",
+    "win_condition": "Llegar con buen oro al segundo objeto, esperar que un aliado aplique control de masas y entrar cuando el enemigo ya haya gastado sus habilidades más peligrosas.",
+    "strengths": [
+      "Excelente seguimiento de engage aliado.",
+      "Puede bloquear proyectiles con su W.",
+      "Tiene gran capacidad para encadenar daño y control.",
+      "Su definitiva puede cambiar una pelea si entra en el momento correcto.",
+      "Funciona especialmente bien con supports de engage."
+    ],
+    "weaknesses": [
+      "Tiene rango corto comparada con muchos ADC.",
+      "Sufre contra poke constante.",
+      "Depende mucho del momento de entrada.",
+      "Puede morir muy rápido si inicia primero.",
+      "Le cuesta jugar cuando el equipo no tiene control de masas."
+    ]
+  },
+
+  "lane_phase": {
+    "goal": "",
+    "trading": "",
+    "wave_management": "",
+    "back_timing": ""
+  },
+
+  "farming": {
+    "cs10": 80,
+    "cs20": 170,
+    "cs30": 260,
+    "tips": []
+  },
+
+  "power_spikes": {
+    "level": [],
+    "items": []
+  },
+
+  "teamfights": {
+    "when_to_enter": "",
+    "focus_priority": [],
+    "when_to_leave": ""
+  },
+
+  "runes": [],
+
+  "build": {
+    "starting": [],
+    "core": [],
+    "situational": []
+  },
+
+  "synergies": [],
+
+  "counters": [],
+
+  "macro": {
+    "baron": "",
+    "dragon": "",
+    "split_push": "",
+    "rotation": ""
+  },
+
+  "common_mistakes": [],
+
+  "practice_plan": []
+}
