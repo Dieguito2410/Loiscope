@@ -1,0 +1,46 @@
+{
+  "roles": [
+    "Marksman"
+  ],
+  "synergies": [
+    "Nautilus",
+    "Leona",
+    "Rakan",
+    "Taric",
+    "Alistar"
+  ],
+  "strategy": {
+    "style": "Tiradora de corto alcance enfocada en combates agresivos, movilidad y daño sostenido cuerpo a cuerpo.",
+    "objective": "Aprovechar su experiencia compartida en línea, buscar intercambios favorables junto a su soporte y entrar en las peleas cuando pueda mantenerse cerca de varios enemigos."
+  },
+  "cs": {
+    "10": "75 - 85",
+    "20": "170 - 190",
+    "note": "Priorizá un farmeo estable y aprovechá la ventaja de experiencia de Nilah para alcanzar niveles importantes antes que la línea rival."
+  },
+  "items": {
+    "start": [
+      "Espada de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "El Coleccionista",
+      "Filo del Infinito",
+      "Recuerdos de Lord Dominik"
+    ],
+    "situational": [
+      "Ángel Guardián",
+      "Recordatorio Mortal",
+      "Fauces de Malmortius",
+      "Sanguinaria",
+      "Bailarín Espectral"
+    ]
+  },
+  "tips": [
+    "Usá la Q para mantener activo tu daño mejorado y aumentar tu alcance durante los intercambios.",
+    "Aprovechá la W para esquivar ataques básicos y reducir el daño mágico recibido en momentos importantes.",
+    "Usá las cargas de la E para entrar, perseguir o reposicionarte durante una pelea.",
+    "Buscá utilizar la definitiva cuando puedas golpear a varios enemigos y mantenerte cerca de tus aliados.",
+    "Nilah gana valor peleando junto a su equipo: elegí bien el momento de entrar en lugar de iniciar sola."
+  ]
+}

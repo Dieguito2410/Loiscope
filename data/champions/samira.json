@@ -1,0 +1,101 @@
+{
+  "id": "samira",
+  "name": "SAMIRA TEST",
+  "title": "La Rosa del Desierto",
+
+  "roles": [
+    "Marksman"
+  ],
+
+  "strategy": {
+    "style": "Tiradora de corto alcance con gran movilidad y daño explosivo.",
+    "objective": "Esperar el momento adecuado para entrar a la pelea, conseguir una baja y aprovechar los reinicios para limpiar el combate."
+  },
+
+  "synergies": [
+    "Leona",
+    "Nautilus",
+    "Rakan",
+    "Alistar",
+    "Pyke"
+  ],
+
+  "cs": {
+    "10": "75 - 85",
+    "20": "170 - 190",
+    "note": "Mantener un buen farmeo para llegar rápidamente al pico de dos objetos."
+  },
+
+  "items": {
+    "start": [
+      "Espada de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Grebas de Berserker",
+      "El Coleccionista",
+      "Filo del Infinito",
+      "Recuerdos de Lord Dominik"
+    ],
+    "situational": [
+      "Recordatorio Mortal",
+      "Ángel Guardián",
+      "Fauces de Malmortius",
+      "Sanguinaria",
+      "Arcoescudo Inmortal"
+    ]
+  },
+
+  "runes": {
+    "primary": {
+      "tree": "Precisión",
+      "keystone": "Conquistador",
+      "slot1": "Triunfo",
+      "slot2": "Leyenda: Linaje",
+      "slot3": "Último Esfuerzo"
+    },
+    "secondary": {
+      "tree": "Valor",
+      "slot1": "Revestimiento de Huesos",
+      "slot2": "Inquebrantable"
+    },
+    "shards": [
+      "Velocidad de Ataque",
+      "Fuerza Adaptativa",
+      "Vida"
+    ]
+  },
+
+  "skills": {
+    "priority": [
+      "R",
+      "Q",
+      "E",
+      "W"
+    ],
+    "start": "Q"
+  },
+
+  "tips": [
+    "No inicies la pelea sin tener rango S o estar cerca de conseguirlo.",
+    "Guardá la W para bloquear habilidades importantes.",
+    "Entrá al combate cuando el enemigo haya gastado su control de masas.",
+    "La E se reinicia con cada eliminación, aprovechala para reposicionarte.",
+    "Tu mayor pico de poder llega con El Coleccionista + Filo del Infinito."
+  ],
+
+  "matchups": {
+    "good": [
+      "Jhin",
+      "Nilah",
+      "Smolder",
+      "Kog'Maw"
+    ],
+    "bad": [
+      "Caitlyn",
+      "Draven",
+      "Ashe",
+      "Varus"
+    ]
+  }
+}

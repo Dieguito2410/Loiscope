@@ -1,0 +1,55 @@
+{
+  "id": "missfortune",
+  "name": "MISS FORTUNE",
+  "title": "la Cazarrecompensas",
+
+  "roles": [
+    "Marksman"
+  ],
+
+  "strategy": {
+    "style": "Tiradora de alto daño en área, fuerte en fase de líneas y especialmente peligrosa cuando puede posicionarse para utilizar su definitiva.",
+    "objective": "Presionar la línea, castigar al enemigo con intercambios cortos y buscar una posición segura desde la cual impactar las peleas de equipo con Lluvia de Balas y Hora de la Bala."
+  },
+
+  "synergies": [
+    "Leona",
+    "Nautilus",
+    "Amumu",
+    "Rell",
+    "Maokai"
+  ],
+
+  "cs": {
+    "10": "75 - 85",
+    "20": "170 - 190",
+    "note": "Aprovechá tu presión de línea sin sacrificar súbditos innecesariamente y llegá con buen farm a tus primeros picos de objetos."
+  },
+
+  "items": {
+    "start": [
+      "Espada de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "El Coleccionista",
+      "Filo del Infinito",
+      "Recuerdos de Lord Dominik"
+    ],
+    "situational": [
+      "Ángel Guardián",
+      "Recordatorio Mortal",
+      "Fauces de Malmortius",
+      "Sanguinaria",
+      "Cañón de Fuego Rápido"
+    ]
+  },
+
+  "tips": [
+    "Usá la Q sobre un súbdito para buscar el rebote sobre el campeón enemigo y castigarlo desde una distancia segura.",
+    "Aprovechá tu velocidad de movimiento para rotar y reposicionarte antes de una pelea.",
+    "Usá la E para ralentizar enemigos y facilitar que tu equipo conecte habilidades de control.",
+    "No uses la R en medio del equipo enemigo: buscá una posición segura antes de canalizarla.",
+    "Esperá a que tus aliados apliquen control de masas antes de lanzar la definitiva para maximizar su daño."
+  ]
+}

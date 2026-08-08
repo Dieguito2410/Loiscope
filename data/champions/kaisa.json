@@ -1,0 +1,55 @@
+{
+  "id": "kaisa",
+  "name": "KAI'SA",
+  "title": "la Hija del Vacío",
+
+  "roles": [
+    "Marksman"
+  ],
+
+  "strategy": {
+    "style": "Tiradora móvil de daño híbrido, excelente para seguir engages, aislar objetivos y reposicionarse agresivamente.",
+    "objective": "Farmear de forma consistente, conseguir sus evoluciones y aprovechar objetivos marcados para entrar con la definitiva cuando exista una oportunidad segura."
+  },
+
+  "synergies": [
+    "Nautilus",
+    "Leona",
+    "Rakan",
+    "Alistar",
+    "Pyke"
+  ],
+
+  "cs": {
+    "10": "75 - 85",
+    "20": "170 - 190",
+    "note": "Priorizá un farmeo estable para alcanzar rápidamente tus evoluciones y tus picos de objetos."
+  },
+
+  "items": {
+    "start": [
+      "Espada de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Hoja del Rey Arruinado",
+      "Guinsoo",
+      "Diente de Nashor"
+    ],
+    "situational": [
+      "Reloj de Arena de Zhonya",
+      "Ángel Guardián",
+      "Recordatorio Mortal",
+      "Fauces de Malmortius",
+      "Sanguinaria"
+    ]
+  },
+
+  "tips": [
+    "Usá la Q cuando el enemigo esté aislado para concentrar todo el daño sobre un solo objetivo.",
+    "Aplicá acumulaciones de Plasma antes de comprometerte con un intercambio largo.",
+    "La E sirve tanto para perseguir como para reposicionarte y evitar habilidades peligrosas.",
+    "No uses la R solamente para entrar: el escudo y el reposicionamiento también pueden salvarte.",
+    "Buscá entrar con la definitiva después de que tu equipo haya aplicado una marca y el rival haya gastado habilidades importantes."
+  ]
+}

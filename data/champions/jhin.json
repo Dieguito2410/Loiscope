@@ -1,0 +1,71 @@
+{
+  "id": "jhin",
+  "name": "Jhin",
+  "title": "el Virtuoso",
+
+  "roles": [
+    "Marksman"
+  ],
+
+  "strategy": {
+    "style": "Tirador de largo alcance enfocado en daño explosivo, críticos y posicionamiento.",
+    "objective": "Controlar los intercambios con ataques calculados, aprovechar el cuarto disparo y castigar enemigos desde una posición segura."
+  },
+
+  "synergies": [
+    "Nautilus",
+    "Leona",
+    "Pyke",
+    "Morgana",
+    "Zyra"
+  ],
+
+  "cs": {
+    "10": "75 - 85",
+    "20": "170 - 190",
+    "note": "Prioriza un farmeo constante y utiliza tus habilidades para asegurar súbditos cuando sea necesario."
+  },
+
+  "items": {
+    "start": [
+      "Espada de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "El Coleccionista",
+      "Botas de Rapidez",
+      "Filo del Infinito",
+      "Recuerdos de Lord Dominik"
+    ],
+    "situational": [
+      "Cañón de Fuego Rápido",
+      "Ángel Guardián",
+      "Recordatorio Mortal",
+      "Fauces de Malmortius",
+      "Sanguinaria"
+    ]
+  },
+
+  "runes": {
+    "primary": {
+      "tree": "Precisión",
+      "keystone": "Pies Veloces",
+      "slot1": "Claridad Mental",
+      "slot2": "Leyenda: Linaje",
+      "slot3": "Golpe de Gracia"
+    },
+    "secondary": {
+      "tree": "Brujería",
+      "slot1": "Celeridad",
+      "slot2": "Se Avecina Tormenta"
+    }
+  },
+
+  "tips": [
+    "Controlá la munición antes de iniciar un intercambio.",
+    "El cuarto disparo es una de tus principales herramientas para ejecutar enemigos y ganar intercambios.",
+    "Utilizá la W para inmovilizar enemigos que hayan recibido daño previamente.",
+    "Colocá las trampas de la E en rutas de entrada, arbustos y zonas donde esperes una pelea.",
+    "Usá la definitiva desde una posición segura y evitá iniciarla si el enemigo puede alcanzarte fácilmente."
+  ]
+}

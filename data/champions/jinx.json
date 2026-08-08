@@ -1,0 +1,46 @@
+{
+  "roles": [
+    "Marksman"
+  ],
+  "synergies": [
+    "Thresh",
+    "Lulu",
+    "Nautilus",
+    "Leona",
+    "Milio"
+  ],
+  "strategy": {
+    "style": "Tiradora de largo alcance enfocada en escalar, mantener distancia y encadenar eliminaciones gracias a su enorme velocidad de ataque y movimiento.",
+    "objective": "Farmear de forma consistente, alcanzar sus objetos principales y posicionarse detrás de su equipo para causar daño continuo en peleas."
+  },
+  "cs": {
+    "10": "75 - 85",
+    "20": "170 - 190",
+    "note": "Priorizá un farmeo constante durante la fase de líneas y evitá arriesgarte innecesariamente antes de alcanzar tus primeros objetos."
+  },
+  "items": {
+    "start": [
+      "Espada de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Matakrakens",
+      "Filo del Infinito",
+      "Huracán de Runaan"
+    ],
+    "situational": [
+      "Ángel Guardián",
+      "Recordatorio Mortal",
+      "Fauces de Malmortius",
+      "Sanguinaria",
+      "Cañón de Fuego Rápido"
+    ]
+  },
+  "tips": [
+    "Usá los cohetes de la Q para mantener distancia y golpear enemigos agrupados.",
+    "Cambiá a la minigun cuando puedas atacar de forma segura y necesites maximizar tu daño sostenido.",
+    "Usá la W para desgastar y ralentizar enemigos antes de comprometerte con una pelea.",
+    "Guardá la E para cortar engages, proteger tu posición o atrapar enemigos que no puedan esquivarla.",
+    "Después de una eliminación o asistencia aprovechá ¡A Tope! para reposicionarte y continuar la pelea."
+  ]
+}
