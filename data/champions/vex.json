@@ -1,0 +1,42 @@
+{
+  "roles": [
+    "Mid"
+  ],
+  "synergies": [
+    "Nautilus",
+    "Amumu",
+    "Malphite",
+    "Jarvan IV"
+  ],
+  "strategy": {
+    "style": "Maga de ráfaga y control, especializada en castigar campeones con movilidad, aplicar miedo y encontrar oportunidades de entrada con su definitiva.",
+    "objective": "Controlar la línea central, mantener un buen ritmo de farmeo y aprovechar el miedo y el control de masas aliado para encontrar objetivos vulnerables y generar ventajas en peleas."
+  },
+  "cs": {
+    "10": "70 - 85",
+    "20": "150 - 180",
+    "note": "Como mid, mantené un buen ritmo de farmeo mientras buscás oportunidades de rotación. Aprovechá tu capacidad para limpiar oleadas sin exponerte innecesariamente."
+  },
+  "items": {
+    "start": [
+      "Anillo de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Tempestad de Luden",
+      "Botas del Hechicero",
+      "Lumbría"
+    ],
+    "situational": [
+      "Reloj de Arena de Zhonya",
+      "Sombrero Mortífero de Rabadon"
+    ]
+  },
+  "tips": [
+    "Controlá el estado de tu pasiva antes de iniciar un intercambio para aprovechar el miedo en el momento adecuado.",
+    "Castigá a los campeones enemigos que utilicen desplazamientos cerca tuyo para aprovechar al máximo tu kit.",
+    "No gastes el miedo innecesariamente antes de una pelea importante; puede ser tu principal herramienta para controlar una entrada enemiga.",
+    "Utilizá la definitiva para alcanzar objetivos vulnerables, pero evaluá la posición del equipo enemigo antes de reactivarla y entrar.",
+    "En peleas grupales, buscá combinar tu entrada con el control de masas de tus aliados para aplicar tu daño sin quedar aislada."
+  ]
+}

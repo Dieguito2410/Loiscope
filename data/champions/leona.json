@@ -1,0 +1,46 @@
+{
+  "roles": [
+    "Support"
+  ],
+  "synergies": [
+    "Samira",
+    "Miss Fortune",
+    "Kai'Sa",
+    "Jhin",
+    "Jinx"
+  ],
+  "strategy": {
+    "style": "Support tanque de engage, especializada en iniciar peleas y mantener a un objetivo bajo control durante largos períodos.",
+    "objective": "Generar presión en línea amenazando con iniciar, proteger al ADC mediante control de masas y encontrar oportunidades para comenzar peleas favorables."
+  },
+  "cs": {
+    "10": "No prioritario",
+    "20": "No prioritario",
+    "note": "Como support, no priorices el farm del ADC. Concentrate en generar presión, controlar visión y encontrar oportunidades seguras de engage."
+  },
+  "items": {
+    "start": [
+      "Atlas Mundial",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Medallón de los Solari de Hierro",
+      "Promesa de Caballero",
+      "Convergencia de Zeke"
+    ],
+    "situational": [
+      "Cota de Espinas",
+      "Corazón de Hielo",
+      "Fuerza de la Naturaleza",
+      "Máscara Abisal",
+      "Redención"
+    ]
+  },
+  "tips": [
+    "No necesitás iniciar cada vez que tengas la E disponible: la amenaza de engage también sirve para controlar el espacio en la línea.",
+    "Activá la W antes de entrar para aumentar tu resistencia y absorber mejor el daño durante el engage.",
+    "Combiná la E y la Q para acercarte al objetivo y mantenerlo controlado mientras tu ADC aplica daño.",
+    "La definitiva puede iniciar una pelea desde mayor distancia o utilizarse para impedir que un enemigo escape.",
+    "Antes de entrar comprobá dónde está tu equipo: Leona tiene excelentes herramientas para iniciar, pero pocas opciones para salir si nadie puede seguirla."
+  ]
+}

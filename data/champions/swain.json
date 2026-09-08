@@ -1,0 +1,46 @@
+{
+  "roles": [
+    "Support"
+  ],
+  "synergies": [
+  "Samira",
+  "Jhin",
+  "Miss Fortune",
+  "Ashe",
+  "Jinx"
+],
+  "strategy": {
+    "style": "Support mago de control y combate prolongado, especializado en atrapar enemigos, absorber presión y mantenerse activo en peleas extendidas.",
+    "objective": "Generar presión mediante control de masas, castigar errores de posicionamiento y aprovechar peleas prolongadas donde pueda mantenerse cerca de varios enemigos."
+  },
+  "cs": {
+    "10": "No prioritario",
+    "20": "No prioritario",
+    "note": "Como support, no priorices el farm del ADC. Usá tus habilidades para generar presión, controlar espacios y crear oportunidades para tu equipo."
+  },
+  "items": {
+    "start": [
+      "Atlas Mundial",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Cetro de Cristal de Rylai",
+      "Tormento de Liandry",
+      "Reloj de Arena de Zhonya"
+    ],
+    "situational": [
+      "Morellonomicón",
+      "Abrazo Demoníaco",
+      "Rostro Espiritual",
+      "Corazón de Hielo",
+      "Jak'Sho, el Proteico"
+    ]
+  },
+  "tips": [
+    "Usá la E para buscar enemigos mal posicionados y crear una oportunidad para que tu ADC pueda seguir el intercambio.",
+    "La W puede ayudarte a controlar zonas, obtener información y participar en acciones que ocurren lejos de tu posición.",
+    "No actives la definitiva demasiado temprano: buscá una pelea en la que puedas permanecer cerca de varios enemigos durante suficiente tiempo.",
+    "Combiná tus controles con los de tu equipo para mantener a los enemigos dentro del alcance de tu definitiva.",
+    "En peleas de equipo, Swain gana valor cuanto más tiempo permanece activo: elegí bien cuándo entrar y evitá quedar aislado antes de que comience el combate."
+  ]
+}

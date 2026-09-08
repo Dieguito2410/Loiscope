@@ -1,0 +1,47 @@
+{
+  "roles": [
+    "Jungle"
+  ],
+  "synergies": [
+  "Shen",
+  "Galio",
+  "Twisted Fate",
+  "Leona",
+  "Nautilus"
+],
+  
+  "strategy": {
+    "style": "Jungla asesino de engage y presión global, especializado en castigar enemigos aislados y crear picks con su definitiva.",
+    "objective": "Farmear eficientemente hasta obtener su definitiva, controlar objetivos y aprovechar enemigos mal posicionados para generar ventajas mediante ganks y picks."
+  },
+  "cs": {
+    "10": "60 - 75",
+    "20": "130 - 160",
+    "note": "Como jungla, priorizá una limpieza eficiente de campamentos sin sacrificar oportunidades claras de gank, objetivos o contrajungla."
+  },
+  "items": {
+  "start": [
+    "Cría de Caminabrisas",
+    "Poción de Vida"
+  ],
+  "core": [
+    "Placa del Hombre Experimental",
+    "Rompeavances",
+    "Cuchilla Oscura"
+  ],
+  "situational": [
+    "Danza de la Muerte",
+    "Hidra Profana",
+    "Filo de la noche",
+    "Arco Axiomático",
+    "Fauces de Malmortius"
+  ]
+},
+  "tips": [
+    "Usá la Q antes y durante los intercambios para aumentar tu daño y aprovechar la velocidad de movimiento sobre el rastro.",
+    "La W puede bloquear una habilidad enemiga clave; evitá gastarla automáticamente y tratá de anticipar el control de masas más peligroso.",
+    "Combiná la E con tu persecución para mantenerte cerca del objetivo hasta activar el miedo.",
+    "No uses Paranoia solamente para conseguir una baja: reducir la visión enemiga también puede generar presión durante objetivos o peleas de equipo.",
+    "Antes de lanzarte con la definitiva, evaluá si tu equipo puede acompañarte y qué herramientas de escape o control tiene el objetivo."
+  ]
+}

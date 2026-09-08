@@ -1,0 +1,45 @@
+{
+  "roles": [
+    "Top"
+  ],
+  "synergies": [
+    "Thresh",
+    "Nautilus",
+    "Lulu",
+    "Orianna",
+    "Lissandra"
+  ],
+  "strategy": {
+    "style": "Tanque de alta resistencia y regeneración, especializado en absorber daño, perseguir objetivos y mantenerse durante largos períodos en combate.",
+    "objective": "Farmear y acumular vida, generar presión en la línea superior y convertirse progresivamente en una amenaza difícil de eliminar que pueda absorber daño y crear espacio para su equipo."
+  },
+  "cs": {
+    "10": "70 - 85",
+    "20": "150 - 180",
+    "note": "Como top, priorizá un farmeo constante y utilizá tu Q para asegurar súbditos o farmear desde una distancia segura cuando el enfrentamiento sea desfavorable."
+  },
+  "items": {
+    "start": [
+      "Escudo de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Armadura de Warmog",
+      "Corazón de Acero",
+      "Botas de Rapidez"
+    ],
+    "situational": [
+      "Hidra Titánica",
+      "Apariencia Espiritual",
+      "Cota de Espinas",
+      "Placa del Hombre Muerto"
+    ]
+  },
+  "tips": [
+    "Utilizá la Q para desgastar al rival, ralentizarlo y mantener una distancia segura durante los intercambios.",
+    "Aprovechá tu gran cantidad de vida y regeneración para absorber presión, pero evitá entrar solo cuando tu equipo no pueda acompañarte.",
+    "Usá tu definitiva antes de quedar demasiado bajo de vida para aprovechar mejor su regeneración durante el combate.",
+    "Buscá crear espacio para tus carries entrando sobre objetivos prioritarios y obligando al enemigo a gastar recursos para detenerte.",
+    "Adaptá tus objetos defensivos al tipo de daño enemigo; Mundo puede volverse extremadamente resistente si construís según la composición rival."
+  ]
+}

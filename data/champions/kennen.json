@@ -1,0 +1,43 @@
+{
+  "roles": [
+    "Top"
+  ],
+  "synergies": [
+    "Amumu",
+    "Jarvan IV",
+    "Leona",
+    "Alistar",
+    "Yone"
+  ],
+  "strategy": {
+    "style": "Mago de daño en área e iniciación, especializado en hostigar a distancia durante la fase de líneas y entrar en peleas grupales para aplicar aturdimientos sobre múltiples enemigos.",
+    "objective": "Mantener presión en la línea superior, farmear de forma segura y buscar oportunidades para entrar sobre varios enemigos con su definitiva, combinando su daño en área con el control de masas de sus aliados."
+  },
+  "cs": {
+    "10": "70 - 85",
+    "20": "150 - 180",
+    "note": "Como top, aprovechá tu rango para farmear y presionar sin exponerte innecesariamente. Antes de abandonar la línea para una pelea u objetivo, intentá asegurar la oleada para no perder demasiado oro y experiencia."
+  },
+  "items": {
+    "start": [
+      "Anillo de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Cinturón Cohete Hextech",
+      "Botas del Hechicero",
+      "Lumbría"
+    ],
+    "situational": [
+      "Reloj de Arena de Zhonya",
+      "Sombrero Mortífero de Rabadon"
+    ]
+  },
+  "tips": [
+    "Aprovechá tu rango para hostigar al rival durante la fase de líneas sin recibir intercambios innecesarios.",
+    "Controlá las Marcas de la Tormenta sobre los enemigos para preparar aturdimientos antes de comprometerte completamente en un intercambio.",
+    "Buscá flancos en las peleas grupales para entrar sobre varios enemigos con tu definitiva en lugar de avanzar directamente desde el frente.",
+    "Combiná tu definitiva con el control de masas de tus aliados para mantener a varios enemigos dentro de su área de efecto.",
+    "Después de entrar agresivamente en una pelea, utilizá el Reloj de Arena de Zhonya cuando sea necesario para sobrevivir mientras tu equipo continúa el combate."
+  ]
+}

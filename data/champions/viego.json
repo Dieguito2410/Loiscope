@@ -1,0 +1,45 @@
+{
+  "roles": [
+    "Jungle"
+  ],
+  "synergies": [
+    "Twisted Fate",
+    "Maokai",
+    "Rell",
+    "Lissandra",
+    "Shen"
+  ],
+  "strategy": {
+    "style": "Jungla luchador y asesino de resets, especializado en aprovechar enemigos debilitados, tomar posesión de ellos y encadenar eliminaciones durante las peleas.",
+    "objective": "Farmear eficientemente, asegurar objetivos y entrar a las peleas después del control inicial de los aliados para conseguir una primera baja y comenzar una cadena de posesiones y reinicios."
+  },
+  "cs": {
+    "10": "60 - 75",
+    "20": "130 - 160",
+    "note": "Como jungla, mantené una limpieza eficiente de campamentos mientras buscás oportunidades de gank y objetivos. Viego necesita mantenerse relevante en oro y experiencia para poder aprovechar sus resets."
+  },
+  "items": {
+    "start": [
+      "Cría de Caminabrisas",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Matakráken",
+      "El Coleccionista",
+      "Arcoescudo Inmortal"
+    ],
+    "situational": [
+      "Filo del Infinito",
+      "Recuerdos de Lord Dominik",
+      "Punteras de Acero Revestidas",
+      "Botas de Mercurio"
+    ]
+  },
+  "tips": [
+    "Usá la W para aprovechar el control de masas de tus aliados y asegurar el aturdimiento sobre un objetivo que ya tenga limitada su movilidad.",
+    "No necesitás ser siempre el primero en entrar: Viego es mucho más peligroso cuando puede atacar enemigos que ya fueron debilitados por su equipo.",
+    "Después de una eliminación, evaluá rápidamente si tomar posesión del enemigo te permite sobrevivir, continuar la pelea o conseguir otro reset.",
+    "Aprovechá la E para moverte y atacar desde zonas de niebla, ocultando tu posición y dificultando que el enemigo anticipe tu entrada.",
+    "La definitiva puede utilizarse para ejecutar, reposicionarte o continuar una cadena de resets; evitá gastarla sin considerar cuál será tu siguiente objetivo."
+  ]
+}

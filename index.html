@@ -9,9 +9,35 @@
 <body>
 
     <div class="container">
-        <h2>Panel de Análisis Cloud — League of Legends (Data Dragon Oficial)</h2>
-        <div id="loadingStatus" class="loading-msg">Conectando con la base de datos oficial de Riot Games (es_MX)...</div>
-        
+   <h1 class="brand-title"><span class="brand-gold">LOIS</span><span class="brand-cyan">COPE</span></h1>
+   <div id="loadingStatus" class="loading-msg">Conectando con la base de datos oficial de Riot Games (es_MX)...</div>
+   <nav class="main-nav">
+    <button type="button" class="nav-tab active">PLAYER ANALYZER</button>
+    <button type="button" class="nav-tab">CHAMPION GUIDES</button>
+</nav>
+<div id="playerAnalyzerSection">
+<div class="player-search">
+    <div class="section-title">Buscar Jugador</div>
+
+    <div class="form-grid">
+        <div class="form-group">
+            <label for="riotGameName">Riot ID</label>
+            <input type="text" id="riotGameName" placeholder="Ej: CapitanYandel">
+        </div>
+
+        <div class="form-group">
+            <label for="riotTagLine">Tag</label>
+            <input type="text" id="riotTagLine" placeholder="Ej: 2410">
+        </div>
+    </div>
+
+    <button type="button" id="btnBuscarJugador">Buscar Jugador</button>
+
+    <div id="playerResult"></div>
+    <div id="playerHistory"></div>
+</div>
+</div>
+<div id="championGuidesSection">
         <div class="form-grid">
             <div class="form-group">
                 <label for="summoner">Nombre de Invocador</label>
@@ -84,8 +110,11 @@
                 <p id="resConsejo">Cargando consejo...</p>
             </div>
         </div>
-    </div>
+                </div>  <!-- Cierra #resultado -->
+    </div>      <!-- Cierra #championGuidesSection -->
+</div>          <!-- Cierra .container -->
 
-    <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
+    

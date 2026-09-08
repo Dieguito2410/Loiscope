@@ -1,0 +1,46 @@
+{
+  "roles": [
+    "Support"
+  ],
+  "synergies": [
+    "Jhin",
+    "Samira",
+    "Miss Fortune",
+    "Kai'Sa",
+    "Lucian"
+  ],
+  "strategy": {
+    "style": "Support asesino de engage y roaming, especializado en crear picks, encadenar control y ejecutar enemigos con poca vida.",
+    "objective": "Generar presión en bot, aprovechar oportunidades de roaming y crear ventajas numéricas mediante picks antes de objetivos importantes."
+  },
+  "cs": {
+    "10": "No prioritario",
+    "20": "No prioritario",
+    "note": "Como support, no priorices el farm del ADC. Concentrate en generar presión, controlar visión y encontrar oportunidades de engage y roaming."
+  },
+  "items": {
+    "start": [
+      "Atlas Mundial",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Guja Sombría",
+      "Filo Fantasmal de Youmuu",
+      "Filo de la Noche"
+    ],
+    "situational": [
+      "Colmillo de la Serpiente",
+      "Arco Axiomático",
+      "Espada Ciclovoltaica",
+      "Oportunidades",
+      "Fauces de Malmortius"
+    ]
+  },
+  "tips": [
+    "Usá la Q para amenazar desde zonas sin visión y obligar al enemigo a respetar tu espacio.",
+    "Combiná la Q con la E para desplazar y aturdir al objetivo, pero asegurate de que tu equipo pueda seguir la iniciación.",
+    "Aprovechá la W para moverte por el mapa, generar presión y buscar oportunidades de roaming.",
+    "No uses la definitiva solamente por daño: buscá enemigos dentro del umbral de ejecución para aprovechar su reinicio.",
+    "Después de conseguir prioridad en bot, buscá visión o movete junto a tu jungla para crear superioridad numérica en otras zonas del mapa."
+  ]
+}

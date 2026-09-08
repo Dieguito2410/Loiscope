@@ -1,0 +1,46 @@
+{
+  "roles": [
+    "Support"
+  ],
+  "synergies": [
+    "Samira",
+    "Jhin",
+    "Kai'Sa",
+    "Miss Fortune",
+    "Jinx"
+  ],
+  "strategy": {
+    "style": "Support tanque de engage, especializado en iniciar peleas, controlar enemigos y generar oportunidades para su ADC.",
+    "objective": "Crear presión en línea con sus controles, proteger al tirador cuando sea necesario y buscar iniciaciones favorables para el equipo."
+  },
+  "cs": {
+    "10": "No prioritario",
+    "20": "No prioritario",
+    "note": "Como support, no priorices el farm del ADC. Usá correctamente tu objeto de support y concentráte en controlar la línea, visión y oportunidades de engage."
+  },
+  "items": {
+    "start": [
+      "Atlas Mundial",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Medallón de los Solari de Hierro",
+      "Promesa de Caballero",
+      "Convergencia de Zeke"
+    ],
+    "situational": [
+      "Malla de Espinas",
+      "Corazón de Hielo",
+      "Fuerza de la Naturaleza",
+      "Máscara Abisal",
+      "Redención"
+    ]
+  },
+  "tips": [
+    "No uses la Q solamente porque tenés oportunidad de acertarla: antes comprobá que tu ADC pueda seguir el engage.",
+    "La pasiva de Nautilus inmoviliza al enemigo con el primer ataque básico, así que aprovechala para encadenar control después de la Q.",
+    "Usá la W antes de recibir daño importante para aprovechar el escudo durante el intercambio.",
+    "La definitiva es especialmente útil contra objetivos prioritarios porque obliga al enemigo a respetar una iniciación que no puede esquivar fácilmente.",
+    "Después de conseguir prioridad en bot, buscá visión profunda o acompañá a tu jungla en lugar de permanecer siempre junto al ADC."
+  ]
+}

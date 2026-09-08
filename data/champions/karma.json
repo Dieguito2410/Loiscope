@@ -1,0 +1,47 @@
+{
+  "roles": [
+    "Support"
+  ],
+  "synergies": [
+  "Swain",
+  "Seraphine",
+  "Ezreal",
+  "Kog'Maw",
+  "Zeri"
+],
+  
+  "strategy": {
+    "style": "Support de utilidad y poke, especializada en presionar la línea, proteger aliados y controlar el ritmo de los intercambios.",
+    "objective": "Generar presión con poke, proteger y reposicionar aliados mediante escudos y velocidad de movimiento, y utilizar su control para crear oportunidades favorables."
+  },
+  "cs": {
+    "10": "No prioritario",
+    "20": "No prioritario",
+    "note": "Como support, no priorices el farm del ADC. Concentrate en generar presión, proteger a tu tirador y controlar la línea."
+  },
+  "items": {
+  "start": [
+    "Atlas Mundial",
+    "Poción de Vida"
+  ],
+  "core": [
+    "Eco de Helia",
+    "Renovador de Luna Nueva",
+    "Redención"
+  ],
+  "situational": [
+    "Incensario Ardiente",
+    "Bastón de Aguas Fluidas",
+    "Bendición de Mikael",
+    "Mandato Imperial",
+    "Maldad"
+  ]
+},
+"tips": [
+    "Usá la Q para generar presión y castigar al rival sin comprometer innecesariamente tu posición.",
+    "La E no solamente aporta un escudo: su velocidad de movimiento puede utilizarse para iniciar, escapar o reposicionar a un aliado.",
+    "Usá la W cuando puedas mantenerte dentro del alcance del objetivo el tiempo suficiente para completar la inmovilización.",
+    "Elegí el uso de Mantra según la situación: potenciar la Q aumenta tu presión, mientras que potenciar la E puede ser más valioso para proteger y reposicionar a tu equipo.",
+    "En peleas de equipo, mantené una posición desde la que puedas proteger a tus carries y utilizar tu velocidad de movimiento para facilitar entradas o retiradas."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "roles": [
+    "Jungle"
+  ],
+  "synergies": [
+    "Ahri",
+    "Malzahar",
+    "Ornn",
+    "Thresh",
+    "Nautilus"
+  ],
+  "strategy": {
+    "style": "Jungla luchador y cazador de objetivos debilitados, especializado en duelos, persecuciones y control mediante su gran capacidad de curación y supresión.",
+    "objective": "Farmear eficientemente, controlar objetivos y aprovechar enemigos con poca vida para generar ganks, asegurar bajas y crear ventajas en el mapa."
+  },
+  "cs": {
+    "10": "60 - 75",
+    "20": "130 - 160",
+    "note": "Como jungla, mantené una limpieza eficiente de campamentos mientras buscás oportunidades claras de gank, invasión y objetivos. Aprovechá Caza de Sangre para reaccionar ante enemigos debilitados."
+  },
+  "items": {
+    "start": [
+      "Cría de Caminabrisas",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Espada del Rey Arruinado",
+      "Rompeavances"
+    ],
+    "situational": [
+      "Cota de Espinas",
+      "Apariencia Espiritual",
+      "Botas de Acero Revestidas",
+      "Botas de Mercurio"
+    ]
+  },
+  "tips": [
+    "Aprovechá Caza de Sangre para detectar enemigos con poca vida y encontrar oportunidades de gank o persecución.",
+    "Usá la Q para mantenerte pegado al objetivo y seguir desplazamientos cuando sea posible.",
+    "La E puede utilizarse defensivamente para reducir daño o activarse en el momento adecuado para aplicar miedo y controlar a varios enemigos.",
+    "No uses la definitiva únicamente para iniciar: también puede servir para alcanzar un objetivo debilitado, bloquear una amenaza o encadenar control con tus aliados.",
+    "Warwick tiene una gran capacidad de curación cuando pelea con poca vida; evaluá cuándo podés continuar un duelo en lugar de retirarte inmediatamente."
+  ]
+}

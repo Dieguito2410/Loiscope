@@ -1,6 +1,22 @@
+:root {
+    --loiscope-bg: #070b0d;
+    --loiscope-surface: #101719;
+    --loiscope-surface-light: #172225;
+
+    --loiscope-gold: #d8b46a;
+    --loiscope-gold-light: #f1d79a;
+
+    --loiscope-cyan: #08b8c4;
+    --loiscope-cyan-light: #35d5dc;
+
+    --loiscope-text: #f1eee6;
+    --loiscope-muted: #8e9a9d;
+    --loiscope-border: #263437;
+}
+
 body {
-    background-color: #0b0f19;
-    color: #f1f5f9;
+    background-color: var(--loiscope-bg);
+color: var(--loiscope-text);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 30px 20px;
@@ -12,16 +28,56 @@ body {
 .container {
     width: 100%;
     max-width: 900px;
-    background: #111827;
+    background: var(--loiscope-surface);
     padding: 30px;
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
-    border: 1px solid #1f2937;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.65);
+    border: 1px solid var(--loiscope-border);
+}
+.brand-title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #f1f5f9;
+}
+
+.brand-title .brand-gold {
+    color: var(--loiscope-gold-light);
+}
+
+.brand-title .brand-cyan {
+    color: var(--loiscope-cyan);
+}
+.main-nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.nav-tab {
+    background: transparent;
+    border: none;
+    padding: 10px 16px;
+    color: #94a3b8;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tab:hover {
+    color: #f1f5f9;
+}
+
+    .nav-tab.active {
+    color: var(--loiscope-gold-light);
+    border-bottom-color: var(--loiscope-cyan);
 }
 
 h2 {
     margin-top: 0;
-    color: #fbbf24;
+   color: var(--loiscope-gold-light);
     font-size: 24px;
     border-bottom: 2px solid #374151;
     padding-bottom: 15px;
@@ -42,7 +98,7 @@ h2 {
 label {
     margin-bottom: 8px;
     font-weight: 600;
-    color: #fbbf24;
+    color: var(--loiscope-gold);
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -58,18 +114,24 @@ input, select, button {
     outline: none;
     transition: border-color 0.2s;
 }
-
-input:focus, select:focus {
-    border-color: #fbbf24;
+input,
+select {
+    background-color: var(--loiscope-surface-light);
+    border-color: var(--loiscope-border);
+    color: var(--loiscope-text);
 }
+input:focus, select:focus {
+    border-color: var(--loiscope-cyan);
+}   
+
 
 select {
     cursor: pointer;
 }
 
 button {
-    background: linear-gradient(135deg, #d97706, #b45309);
-    border: none;
+   background: linear-gradient(135deg, #182326 0%, #101719 50%, #123036 100%);
+border: 1px solid var(--loiscope-gold);
     font-weight: bold;
     cursor: pointer;
     transition: opacity 0.2s, transform 0.1s;
@@ -80,11 +142,25 @@ button {
 }
 
 button:hover {
-    opacity: 0.95;
+    opacity: 1;
+    border-color: var(--loiscope-cyan);
+    box-shadow: 0 0 12px rgba(8, 184, 196, 0.25);
 }
 
 button:active {
     transform: scale(0.99);
+}
+.main-nav .nav-tab {
+    width: auto;
+    margin-top: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav .nav-tab.active {
+    color: var(--loiscope-gold-light);
+    border-bottom-color: var(--loiscope-cyan);
 }
 
 #resultado {
@@ -122,7 +198,7 @@ button:active {
 }
 
 .section-title {
-    color: #fbbf24;
+   color: var(--loiscope-gold-light);
     font-size: 16px;
     font-weight: 600;
     margin: 20px 0 10px 0;
@@ -136,7 +212,7 @@ button:active {
     display: inline-block;
     width: 4px;
     height: 16px;
-    background-color: #fbbf24;
+    background-color: var(--loiscope-cyan);
     border-radius: 2px;
 }
 
@@ -203,7 +279,7 @@ button:active {
 }
 
 .loading-msg {
-    color: #fbbf24;
+    color: var(--loiscope-cyan);
     font-style: italic;
     font-size: 14px;
     margin-bottom: 15px;
@@ -211,4 +287,122 @@ button:active {
 
 .card-box-spaced {
     margin-top: 15px;
+}
+/* LOISCOPE — Player Analyzer Cards */
+#playerResult .card-box,
+#playerHistory .card-box {
+    background: var(--loiscope-surface-light);
+    border: 1px solid var(--loiscope-border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 20px;
+    color: var(--loiscope-text);
+}
+/* LOISCOPE — Match Stats */
+.match-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.match-stat {
+    background: var(--loiscope-surface);
+    border: 1px solid var(--loiscope-border);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.match-stat-label {
+    color: var(--loiscope-muted);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.match-stat strong {
+    color: var(--loiscope-gold-light);
+    font-size: 20px;
+}
+/* LOISCOPE — Analysis Scores */
+.analysis-scores {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.analysis-score {
+    background: var(--loiscope-surface);
+    border: 1px solid var(--loiscope-border);
+    border-radius: 10px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.analysis-score-label {
+    color: var(--loiscope-muted);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.analysis-score strong {
+    color: var(--loiscope-gold-light);
+    font-size: 32px;
+}
+
+.analysis-score small {
+    color: var(--loiscope-muted);
+    font-size: 14px;
+}
+/* LOISCOPE — Teamplay Breakdown */
+.teamplay-breakdown-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.teamplay-breakdown-grid p {
+    background: var(--loiscope-surface);
+    border: 1px solid var(--loiscope-border);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0;
+    color: var(--loiscope-text);
+}
+/* LOISCOPE — Analysis Stats */
+.analysis-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.analysis-stat {
+    background: var(--loiscope-surface);
+    border: 1px solid var(--loiscope-border);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.analysis-stat-label {
+    color: var(--loiscope-muted);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.analysis-stat strong {
+    color: var(--loiscope-text);
+    font-size: 18px;
 }

@@ -1,0 +1,43 @@
+{
+  "roles": [
+    "Top"
+  ],
+  "synergies": [
+    "Qiyana",
+    "Zilean",
+    "Fiddlesticks",
+    "Karthus",
+    "Blitzcrank"
+  ],
+  "strategy": {
+    "style": "Luchador de split push y presión lateral, especializado en controlar oleadas, invocar Seres de Niebla y derribar estructuras junto a la Doncella de la Niebla.",
+    "objective": "Farmear de forma constante, generar presión en las líneas laterales y aprovechar sus invocaciones para destruir torres y obligar al equipo enemigo a responder a su avance."
+  },
+  "cs": {
+    "10": "70 - 85",
+    "20": "150 - 180",
+    "note": "Como top, priorizá mantener un buen ritmo de farmeo y controlar la oleada. Aprovechá los Seres de Niebla y la Doncella para generar presión lateral sin abandonar objetivos importantes innecesariamente."
+  },
+  "items": {
+    "start": [
+      "Espada de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Fuerza de la Trinidad",
+      "Botas de Acero Revestidas",
+      "Lanza de Shojin"
+    ],
+    "situational": [
+      "Rencor de Serylda",
+      "Guantelete de Sterak"
+    ]
+  },
+  "tips": [
+    "Prepará tumbas con tu Q antes de buscar intercambios para poder invocar Seres de Niebla y aumentar tu presión.",
+    "Utilizá la E para marcar objetivos y dirigir tus Seres de Niebla hacia enemigos prioritarios.",
+    "Usá la W para limitar el movimiento del rival, cortar rutas de escape o dificultar que llegue hasta vos.",
+    "Protegé a la Doncella de la Niebla cuando sea posible, ya que aumenta considerablemente tu presión en línea y capacidad de split push.",
+    "Antes de presionar una línea lateral, observá el mapa y los objetivos disponibles; obligar a varios enemigos a responder puede crear una ventaja para tu equipo."
+  ]
+}

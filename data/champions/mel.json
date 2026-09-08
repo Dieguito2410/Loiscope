@@ -1,0 +1,43 @@
+{
+  "roles": [
+    "Mid"
+  ],
+  "synergies": [
+    "Amumu",
+    "Sejuani",
+    "Maokai",
+    "Nautilus",
+    "Jarvan IV"
+  ],
+  "strategy": {
+    "style": "Maga de control y daño a distancia, especializada en hostigar al rival, controlar espacios y castigar enemigos inmovilizados con sus habilidades.",
+    "objective": "Mantener presión en la línea central, farmear de forma segura y aprovechar el control de masas de los aliados para conectar habilidades, generar bajas y aportar daño en peleas de equipo."
+  },
+  "cs": {
+    "10": "70 - 85",
+    "20": "150 - 180",
+    "note": "Como mid, priorizá mantener un buen ritmo de farmeo sin perder oportunidades de rotación. Utilizá tu rango para controlar la oleada y presionar al rival de forma segura."
+  },
+  "items": {
+    "start": [
+      "Anillo de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Tempestad de Luden",
+      "Botas de Hechicero",
+      "Lumbría"
+    ],
+    "situational": [
+      "Sombrero Mortífero de Rabadon",
+      "Reloj de Arena de Zhonya"
+    ]
+  },
+  "tips": [
+    "Aprovechá tu alcance para desgastar al rival sin exponerte innecesariamente durante la fase de líneas.",
+    "Buscá atacar después del control de masas de tus aliados para aumentar las probabilidades de conectar tus habilidades.",
+    "Utilizá tu W en el momento adecuado para devolver proyectiles enemigos y transformar habilidades peligrosas del rival en oportunidades para tu equipo.",
+    "En peleas grupales, mantené una posición segura y buscá golpear a varios enemigos sin quedar expuesta a iniciaciones.",
+    "No dependas únicamente de tu definitiva para hacer daño: utilizala cuando tus acumulaciones permitan asegurar una ejecución o generar una ventaja importante en la pelea."
+  ]
+}

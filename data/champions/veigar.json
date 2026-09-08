@@ -1,0 +1,44 @@
+{
+  "roles": [
+    "Mid"
+  ],
+  "synergies": [
+    "Blitzcrank",
+    "Nautilus",
+    "Amumu",
+    "Vi",
+    "Gragas"
+  ],
+  "strategy": {
+    "style": "Mago de control y escalado, especializado en acumular poder de habilidad, controlar zonas con su jaula y eliminar objetivos vulnerables con gran daño explosivo.",
+    "objective": "Farmear y acumular poder de habilidad de forma constante, controlar el espacio durante las peleas y aprovechar el control de masas propio y de los aliados para conectar sus habilidades y ejecutar enemigos."
+  },
+  "cs": {
+    "10": "70 - 85",
+    "20": "150 - 180",
+    "note": "Como mid, priorizá un farmeo constante y utilizá tu Q para conseguir súbditos mientras acumulás poder de habilidad. No sacrifiques oleadas innecesariamente por rotaciones de bajo valor."
+  },
+  "items": {
+    "start": [
+      "Anillo de Doran",
+      "Poción de Vida"
+    ],
+    "core": [
+      "Vara de las Edades",
+      "Botas del Hechicero",
+      "Tempestad de Luden"
+    ],
+    "situational": [
+      "Bastón del Arcángel",
+      "Sombrero Mortífero de Rabadon",
+      "Reloj de Arena de Zhonya"
+    ]
+  },
+  "tips": [
+    "Utilizá la Q para asegurar súbditos y acumular poder de habilidad durante toda la partida.",
+    "No uses la E únicamente para intentar aturdir: la jaula también sirve para bloquear caminos, separar enemigos y controlar zonas.",
+    "Aprovechá el control de masas de tus aliados para colocar la W sobre enemigos que ya tengan limitada su movilidad.",
+    "En peleas grupales, mantené una posición segura y utilizá la E para dificultar que los enemigos lleguen hasta vos o tus carries.",
+    "Reservá la definitiva para objetivos suficientemente debilitados cuando sea posible, aprovechando su capacidad de ejecución."
+  ]
+}
