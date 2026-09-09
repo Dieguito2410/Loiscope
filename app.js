@@ -255,9 +255,19 @@ btnBuscarJugador.addEventListener('click', async () => {
         return;
     }
 
-    playerResult.textContent = 'Buscando jugador...';
-    playerHistory.textContent = 'Analizando últimas 5 partidas...';
+    playerResult.innerHTML = `
+    <div class="search-loading">
+        <span class="loading-spinner"></span>
+        <span>Buscando jugador...</span>
+    </div>
+`;
 
+playerHistory.innerHTML = `
+    <div class="search-loading">
+        <span class="loading-spinner"></span>
+        <span>Analizando últimas 5 partidas...</span>
+    </div>
+`;
     try {
         const response = await fetch(
             `/api/analyze/${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}`
@@ -265,11 +275,17 @@ btnBuscarJugador.addEventListener('click', async () => {
 
         const data = await response.json();
 
-        if (!response.ok || !data.ok) {
-            playerResult.textContent =
-                data.message || 'No se pudo encontrar al jugador.';
-            return;
-        }
+       if (!response.ok || !data.ok) {
+    playerResult.innerHTML = `
+        <div class="search-error">
+            <strong>No pudimos encontrar al jugador.</strong>
+            <p>${data.message || 'Verificá el Riot ID y el Tag e intentá nuevamente.'}</p>
+        </div>
+    `;
+    playerHistory.innerHTML = '';
+    return;
+}
+        
 
         const minutos = Math.floor(data.game.durationSeconds / 60);
         const segundos = data.game.durationSeconds % 60;
@@ -280,7 +296,7 @@ btnBuscarJugador.addEventListener('click', async () => {
 <div class="section-title">ÚLTIMA PARTIDA</div>
 <h3>${data.account.gameName}#${data.account.tagLine}</h3>
             <p><strong>Campeón:</strong> ${data.player.champion}</p>
-                <p><strong>Posición:</strong> ${data.player.position}</p>
+              <p><strong>Posición:</strong> ${{ BOTTOM: 'ADC', UTILITY: 'SUPPORT', MIDDLE: 'MID', TOP: 'TOP', JUNGLE: 'JUNGLE' }[data.player.position] || data.player.position}</p>
                <div class="match-stats-grid">
     <div class="match-stat">
         <span class="match-stat-label">K/D/A</span>
@@ -407,10 +423,23 @@ ${historyData.teamplayAnalysis.improvements
   .join('')}
         </div>
     `;
+} else {
+    playerHistory.innerHTML = `
+        <div class="search-error">
+            <strong>No pudimos completar el análisis del historial.</strong>
+            <p>${historyData.error || historyData.message || 'No se pudieron obtener las partidas. Intentá nuevamente más tarde.'}</p>
+        </div>
+    `;
 }
     } catch (error) {
         console.error(error);
-        playerResult.textContent = 'Error al conectar con RiotAnalytics.';
+        playerResult.innerHTML = `
+    <div class="search-error">
+        <strong>Error al conectar con LOISCOPE.</strong>
+        <p>No pudimos completar la búsqueda. Intentá nuevamente más tarde.</p>
+    </div>
+`;
+playerHistory.innerHTML = '';
     }
 });
 // LOISCOPE — Navegación entre secciones
