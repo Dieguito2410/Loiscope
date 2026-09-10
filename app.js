@@ -247,6 +247,7 @@ console.log('BOTON BUSCAR JUGADOR:', btnBuscarJugador);
 btnBuscarJugador.addEventListener('click', async () => {
     const gameName = document.getElementById('riotGameName').value.trim();
     const tagLine = document.getElementById('riotTagLine').value.trim();
+    const region = document.getElementById('riotRegion').value;
     const playerResult = document.getElementById('playerResult');
     const playerHistory = document.getElementById('playerHistory');
 
@@ -270,7 +271,7 @@ playerHistory.innerHTML = `
 `;
     try {
         const response = await fetch(
-            `/api/analyze/${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}`
+           `/api/analyze/${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}?region=${encodeURIComponent(region)}`
         );
 
         const data = await response.json();
@@ -320,7 +321,7 @@ playerHistory.innerHTML = `
             </div>
         `;
 const historyResponse = await fetch(
-    `/api/analyze-history/${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}`
+    `/api/analyze-history/${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}?region=${encodeURIComponent(region)}`
 );
 
 const historyData = await historyResponse.json();

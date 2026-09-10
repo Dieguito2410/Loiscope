@@ -6,7 +6,23 @@ console.log("Riot API Key cargada:", process.env.RIOT_API_KEY ? "SI" : "NO");
 
 const app = express();
 const PORT = 3000;
+function getRegionalRoute(region) {
+    const routes = {
+        NA: 'americas',
+        LAN: 'americas',
+        LAS: 'americas',
+        BR: 'americas',
+        EUW: 'europe',
+        EUNE: 'europe',
+        TR: 'europe',
+        RU: 'europe',
+        KR: 'asia',
+        JP: 'asia',
+        OCE: 'sea'
+    };
 
+    return routes[region?.toUpperCase()] || 'americas';
+}
 app.use(express.json());
 app.use(express.static(__dirname));
 
@@ -205,10 +221,12 @@ app.get("/api/player-match/:matchId/:puuid", async (req, res) => {
 app.get("/api/analyze/:gameName/:tagLine", async (req, res) => {
   try {
     const { gameName, tagLine } = req.params;
-
-    // 1. Buscar la cuenta y obtener el PUUID
+const region = req.query.region || 'LAS';
+const regionalRoute = getRegionalRoute(region);
+console.log('ANALYZE RECIBIDO:', gameName, tagLine, region, regionalRoute);    
+// 1. Buscar la cuenta y obtener el PUUID
     const accountUrl =
-      `https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/` +
+      `https://${regionalRoute}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/` +
       `${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}`;
 
     const accountResponse = await fetch(accountUrl, {
@@ -230,7 +248,7 @@ app.get("/api/analyze/:gameName/:tagLine", async (req, res) => {
 
     // 2. Buscar la partida más reciente
     const matchesUrl =
-      `https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/` +
+      `https://${regionalRoute}.api.riotgames.com/lol/match/v5/matches/by-puuid/` +
       `${encodeURIComponent(puuid)}/ids?start=0&count=1`;
 
     const matchesResponse = await fetch(matchesUrl, {
@@ -248,7 +266,7 @@ app.get("/api/analyze/:gameName/:tagLine", async (req, res) => {
     }
 
     const matches = await matchesResponse.json();
-
+console.log('REGION:', region, 'ROUTE:', regionalRoute, 'MATCHES URL:', matchesUrl, 'MATCHES:', matches);
     if (matches.length === 0) {
       return res.status(404).json({
         ok: false,
@@ -260,7 +278,7 @@ app.get("/api/analyze/:gameName/:tagLine", async (req, res) => {
 
     // 3. Obtener los datos completos de esa partida
     const matchUrl =
-      `https://americas.api.riotgames.com/lol/match/v5/matches/` +
+      `https://${regionalRoute}.api.riotgames.com/lol/match/v5/matches/` +
       `${encodeURIComponent(matchId)}`;
 
     const matchResponse = await fetch(matchUrl, {
@@ -330,10 +348,11 @@ app.get("/api/analyze/:gameName/:tagLine", async (req, res) => {
 app.get("/api/analyze-history/:gameName/:tagLine", async (req, res) => {
   try {
     const { gameName, tagLine } = req.params;
-
+const region = req.query.region || 'LAS';
+const regionalRoute = getRegionalRoute(region);
     // 1. Buscar la cuenta
     const accountUrl =
-      `https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/` +
+     `https://${regionalRoute}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/` +
       `${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}`;
 
     const accountResponse = await fetch(accountUrl, {
@@ -354,8 +373,8 @@ app.get("/api/analyze-history/:gameName/:tagLine", async (req, res) => {
 
     // 2. Buscar las últimas 5 partidas
     const matchesUrl =
-      `https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/` +
-      `${encodeURIComponent(puuid)}/ids?start=0&count=20`;
+    `https://${regionalRoute}.api.riotgames.com/lol/match/v5/matches/by-puuid/` +  
+    `${encodeURIComponent(puuid)}/ids?start=0&count=20`;
     const matchesResponse = await fetch(matchesUrl, {
       headers: {
         "X-Riot-Token": process.env.RIOT_API_KEY
@@ -375,7 +394,7 @@ app.get("/api/analyze-history/:gameName/:tagLine", async (req, res) => {
     // 3. Abrir cada partida y encontrar al jugador
     for (const matchId of matchIds) {
       const matchUrl =
-        `https://americas.api.riotgames.com/lol/match/v5/matches/` +
+        `https://${regionalRoute}.api.riotgames.com/lol/match/v5/matches/` +
         `${encodeURIComponent(matchId)}`;
 
       const matchResponse = await fetch(matchUrl, {
