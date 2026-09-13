@@ -223,11 +223,11 @@ app.get("/api/analyze/:gameName/:tagLine", async (req, res) => {
     const { gameName, tagLine } = req.params;
 const region = req.query.region || 'LAS';
 const regionalRoute = getRegionalRoute(region);
+const accountRoute = region.toUpperCase() === 'OCE' ? 'asia' : regionalRoute;
 console.log('ANALYZE RECIBIDO:', gameName, tagLine, region, regionalRoute);    
 // 1. Buscar la cuenta y obtener el PUUID
     const accountUrl =
-      `https://${regionalRoute}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/` +
-      `${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}`;
+      `https://${accountRoute}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/` +      `${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}`;
 
     const accountResponse = await fetch(accountUrl, {
       headers: {
@@ -235,6 +235,7 @@ console.log('ANALYZE RECIBIDO:', gameName, tagLine, region, regionalRoute);
       }
     });
 
+    console.log('ACCOUNT STATUS:', accountResponse.status, 'URL:', accountUrl);
     if (!accountResponse.ok) {
       return res.status(accountResponse.status).json({
         ok: false,
@@ -350,9 +351,10 @@ app.get("/api/analyze-history/:gameName/:tagLine", async (req, res) => {
     const { gameName, tagLine } = req.params;
 const region = req.query.region || 'LAS';
 const regionalRoute = getRegionalRoute(region);
+const accountRoute = region.toUpperCase() === 'OCE' ? 'asia' : regionalRoute;
     // 1. Buscar la cuenta
     const accountUrl =
-     `https://${regionalRoute}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/` +
+     `https://${accountRoute}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/` +
       `${encodeURIComponent(gameName)}/${encodeURIComponent(tagLine)}`;
 
     const accountResponse = await fetch(accountUrl, {
