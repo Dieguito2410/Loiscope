@@ -376,7 +376,7 @@ const accountRoute = region.toUpperCase() === 'OCE' ? 'asia' : regionalRoute;
     // 2. Buscar las últimas 5 partidas
     const matchesUrl =
     `https://${regionalRoute}.api.riotgames.com/lol/match/v5/matches/by-puuid/` +  
-    `${encodeURIComponent(puuid)}/ids?start=0&count=20`;
+    `${encodeURIComponent(puuid)}/ids?queue=420&start=0&count=20`;
     const matchesResponse = await fetch(matchesUrl, {
       headers: {
         "X-Riot-Token": process.env.RIOT_API_KEY
