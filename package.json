@@ -1,23 +1,27 @@
 {
-  "name": "riotanalytics",
+  "name": "loiscope",
   "version": "1.0.0",
-  "description": "",
-  "main": "app old.js",
+  "description": "League of Legends analytics web application powered by the Riot Games API.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dieguito2410/RiotAnalytics.git"
+    "url": "git+https://github.com/Dieguito2410/Loiscope.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "league-of-legends",
+    "riot-games-api",
+    "analytics"
+  ],
+  "author": "Diego Deferrari",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Dieguito2410/RiotAnalytics/issues"
+    "url": "https://github.com/Dieguito2410/Loiscope/issues"
   },
-  "homepage": "https://github.com/Dieguito2410/RiotAnalytics#readme",
+  "homepage": "https://github.com/Dieguito2410/Loiscope#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
