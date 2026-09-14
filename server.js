@@ -5,7 +5,7 @@ dotenv.config({ path: __dirname + "/.env" });
 console.log("Riot API Key cargada:", process.env.RIOT_API_KEY ? "SI" : "NO");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 function getRegionalRoute(region) {
     const routes = {
         NA: 'americas',
@@ -29,7 +29,7 @@ app.use(express.static(__dirname));
 app.get("/api/test", (req, res) => {
   res.json({
     ok: true,
-    message: "Backend de RiotAnalytics funcionando"
+    message: "Backend de LOISCOPE funcionando"
   });
 });
 app.get("/api/account/:gameName/:tagLine", async (req, res) => {
